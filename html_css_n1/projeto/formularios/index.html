@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilo.css" />
+    <title>Formularios</title>
+</head>
+<body>
+    <h1>Formulários</h1>
+
+    <h2>Área de Cadastro</h2>
+    <form action="cadastro.html" method="POST">
+        <label>Nome<br/>
+            <input type="text" name="nome" autofocus/>
+        </label>
+
+
+        <label>Fone<br/>
+            <input type="" name="fone" />
+        </label>
+
+        <label for="civil">Civil<br/>
+            <select name="civil" id="civil">
+                <option value="1">Solteiro</option>
+                <option value="2" selected>Casado</option>
+                <option value="3">Divorciado</option>
+                <option value="4">Viuvo</option>
+            </select>
+        </label>
+
+        <label>Descrição:<br/>
+            <textarea name="descricao">
+
+            </textarea>
+        </label><br/>
+
+        <label> 
+            <input type="checkbox" />
+            Eu declaro que são verdadeiras as informações acima.
+        </label>
+        <br/>
+        <input type="submit" value="Cadastro" />
+        
+    </form>
+    
+</body>
+</html>
