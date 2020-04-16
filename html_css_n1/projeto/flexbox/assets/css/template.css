@@ -12,17 +12,35 @@ header{
     display: flex;
     justify-content: space-between;
     width: 990px;
-    background-color: green;
 }
 
 .logo{
     display: flex;
     align-items: center;
-    background-color: lightcyan;
-
-
 }
 
 .menu{
-    background-color: lightskyblue;
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0px;
+}
+
+nav ul{
+    display: flex;
+}
+nav a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color:#727272;
+}
+nav .active a{
+    background-color: #39aae1;
 }
