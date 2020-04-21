@@ -1,0 +1,66 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+}
+.conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    border-radius: 25px;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkseagreen;
+}
+
+h1{
+    font-size: 50px;
+    color: darkred;
+    text-shadow: 1px 1px 1px black;
+}
+#pessoal{
+    background-color: lightyellow;
+    width: 90%;
+    border: 1px dashed maroon;
+    border-radius: 25px;
+    padding: 10px;
+}
+#matricula{
+
+}
+#botoes{
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+section{
+    display: flex;
+    justify-content: center;
+    height: 400px;
+}
+img{
+    display: flex;
+    align-items: center;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+footer .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 50px;
+    background-color: black; 
+    color: white;
+}
